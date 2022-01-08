@@ -1,7 +1,7 @@
 var person = {
 firstName : "Hussein",
 age : 32,
-nationality:"Iraq",
+nationality:"Iraq", 
 vaccinated : true,
 }
  console.log(person);
@@ -64,9 +64,27 @@ isMinMaj(list)
 function isMinMaj (personList){
     for (var i = 0 ; i< personList.length; i++){
         if (personList[i].age >= 18){
-            console.log(personList[i].name + " majeur")
+            console.log(personList[i].name +" majeur")
         }else{
             console.log(personList[i].name +" mineur")
         }
     }
 }
+
+// object with list 
+
+
+
+
+
+// carList[0] = bmw;
+// carList[1] = toyota;
+// carList[2] = seat;
+// carList[3] = hyundai;
+
+// function giveMeYears(){
+//     for( var i = 0; i<3 ; i++){
+//         console.log(carList[i].model + " "+  carList[i].year)
+
+//     }
+// }
